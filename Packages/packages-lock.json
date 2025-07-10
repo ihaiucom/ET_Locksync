@@ -18,6 +18,14 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "cn.etetet.db": {
+      "version": "file:cn.etetet.db",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "cn.etetet.core": "1.0.0"
+      }
+    },
     "cn.etetet.demores": {
       "version": "file:cn.etetet.demores",
       "depth": 0,
@@ -154,6 +162,14 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
+    },
+    "cn.etetet.webgl": {
+      "version": "file:cn.etetet.webgl",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "cn.etetet.core": "2.0.8"
+      }
     },
     "cn.etetet.yooassets": {
       "version": "file:cn.etetet.yooassets",
